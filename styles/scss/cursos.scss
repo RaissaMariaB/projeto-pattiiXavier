@@ -1,0 +1,28 @@
+.cursos {
+    color: $fonte-branca;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.cursos__titulo > h2 {
+    @include fonte-titulo($fonte-vermelho);
+}
+
+.cursos__descricao-aberto {
+background-color: $bg-vermelho;
+margin-top: 10px;
+}
+
+.button__inscricao {
+
+  @include button__inscricao(6px)
+}
+
+.cursos__descricao-breve{
+    background-color:#E98A95;
+    margin-top: 10px;
+}
+
+.button__inscricao--breve {
+    @include button__inscricao(12px)
+}
