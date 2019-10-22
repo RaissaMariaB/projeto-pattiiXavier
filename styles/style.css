@@ -16,7 +16,16 @@
 
 .cursos__descricao-aberto {
   background-color: #D41820;
-  margin-top: 10px;
+  margin-top: 16px;
+  border-radius: 5px;
+}
+
+.fonte-texto {
+  font-size: 10px;
+}
+
+.fonte-texto1 {
+  font-size: 12px;
 }
 
 .button__inscricao {
@@ -30,7 +39,8 @@
 
 .cursos__descricao-breve {
   background-color: #E98A95;
-  margin-top: 10px;
+  margin-top: 16px;
+  border-radius: 5px;
 }
 
 .button__inscricao--breve {
