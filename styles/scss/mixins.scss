@@ -1,0 +1,6 @@
+@mixin fonte-titulo($cor){
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.8rem;
+    color: $cor;    
+}
+
