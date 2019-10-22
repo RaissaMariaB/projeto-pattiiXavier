@@ -1,3 +1,21 @@
+* {
+  box-sizing: border-box;
+}
 
+.minibio {
+  display: flex;
+  align-items: center;
+}
+
+.fotominibio {
+  width: 20%;
+  right: 40%;
+}
+
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.8rem;
+  color: #DA1425;
+}
 
 /*# sourceMappingURL=style.css.map */
