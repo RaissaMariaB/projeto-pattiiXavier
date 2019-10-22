@@ -1,0 +1,17 @@
+.dados{
+    background-color: $bg-vermelho;
+    width: 100%;
+    //  height: 40vh;    
+
+}
+
+.dados  h2{
+    @include fonte-titulo($fonte-branca)
+    
+
+}
+
+.dados-calda{
+    margin-top: -15px;
+    width: 100%;
+}

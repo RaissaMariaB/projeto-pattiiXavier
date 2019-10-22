@@ -1,3 +1,25 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0 auto;
+}
+
+.dados {
+  background-color: #E50E2D;
+  width: 100%;
+}
+
+.dados h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.8rem;
+  color: #ffff;
+}
+
+.dados-calda {
+  margin-top: -15px;
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
