@@ -1,13 +1,13 @@
-.minibio{
-    display: flex;
-    align-items: center;
-}
-
-.fotominibio{
-    width: 20%;
-    right: 40%;
-}
 
 h2{    
     @include fonte-titulo($fonte-vermelho)    
 }
+
+.minibio{
+margin: 10%;
+}
+.minibio__imagem{
+    width: 300px;
+    height: 450px;
+}
+
