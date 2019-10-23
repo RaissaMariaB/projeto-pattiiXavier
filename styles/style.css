@@ -9,17 +9,22 @@ body {
 .dados {
   background-color: #E50E2D;
   width: 100%;
+  padding-bottom: 15px;
 }
 
 .dados h2 {
   font-family: "Dancing Script", cursive;
   font-size: 2.8rem;
   color: #ffff;
+  margin-top: 20px;
 }
 
-.dados-calda {
-  margin-top: -15px;
-  width: 100%;
+.container__dados--img {
+  margin: 25px;
+  width: 25%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
