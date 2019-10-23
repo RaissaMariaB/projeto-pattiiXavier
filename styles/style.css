@@ -9,4 +9,36 @@
   height: 100vh;
 }
 
+footer {
+  background-color: #D41820;
+  margin-top: 15px;
+  background-repeat: no-repeat;
+}
+
+.linkParceiros {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.contato-titulo {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.8rem;
+  color: #ffff;
+}
+
+i {
+  color: #ffff;
+}
+
+.slide__parceiros {
+  display: none;
+}
+
+.slide__parceiros--imagem {
+  width: 5vw;
+  margin-left: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
