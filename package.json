@@ -5,11 +5,9 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "sass": "styles/style.scss  styles/style.css"
+        "sass": "sass styles/style.scss  styles/style.css"
     },
     "author": "",
     "license": "ISC",
-    "dependencies": {
-        "sass": "^1.23.0"
-    }
+    "dependencies": {}
 }
