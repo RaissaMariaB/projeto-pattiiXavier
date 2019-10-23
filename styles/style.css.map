@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["scss/base.scss","scss/eventos.scss"],"names":[],"mappings":"AAAA;EACI;;;ACDJ;EACI","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["scss/base.scss","scss/eventos.scss","scss/mixins.scss"],"names":[],"mappings":"AAAA;EACI;;;ACDJ;EACI;;;AAGJ;ECHI;EACA;EACA;;;ADKJ;EACI","file":"style.css"}
