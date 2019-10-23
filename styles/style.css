@@ -2,15 +2,15 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0 auto;
+}
+
 .carousel-inner {
   object-fit: cover;
   object-position: 0 25%;
   max-height: 400px;
   height: 100vh;
-}
-
-body {
-  margin: 0 auto;
 }
 
 .dados {
@@ -32,6 +32,7 @@ body {
   height: 35%;
   display: flex;
   justify-content: center;
+}
 
 .cursos {
   color: #ffff;
@@ -46,7 +47,7 @@ body {
 }
 
 .cursos__descricao-aberto {
-  background-color: #D41820;
+  background-color: #E50E2D;
   margin-top: 16px;
   border-radius: 5px;
 }
@@ -72,16 +73,6 @@ body {
   background-color: #E98A95;
   margin-top: 16px;
   border-radius: 5px;
-}
-
-.button__inscricao--breve {
-  background-color: #ffff;
-  color: #DA1425;
-  text-decoration: none;
-  font-size: 0.7rem;
-  padding: 12px;
-  border-radius: 8px;
-
 }
 
 /*# sourceMappingURL=style.css.map */
