@@ -2,6 +2,31 @@
   box-sizing: border-box;
 }
 
+
+body {
+  margin: 0 auto;
+}
+
+.dados {
+  background-color: #E50E2D;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.dados h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.8rem;
+  color: #ffff;
+  margin-top: 20px;
+}
+
+.container__dados--img {
+  margin: 25px;
+  width: 25%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+
 .cursos {
   color: #ffff;
   width: 500px;
@@ -50,6 +75,7 @@
   font-size: 0.7rem;
   padding: 12px;
   border-radius: 8px;
+
 }
 
 /*# sourceMappingURL=style.css.map */
