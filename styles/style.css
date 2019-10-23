@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+
+.esconder-slide {
+  opacity: 0;
+}
+
+.eventos__titulo h2 {
+
 body {
   margin: 0 auto;
 }
@@ -41,10 +48,15 @@ body {
 }
 
 .cursos__titulo > h2 {
+
   font-family: "Dancing Script", cursive;
   font-size: 2.8rem;
   color: #DA1425;
 }
+
+
+.card-tamanho {
+  width: 100%;
 
 .cursos__descricao-aberto {
   background-color: #E50E2D;
@@ -73,6 +85,7 @@ body {
   background-color: #E98A95;
   margin-top: 16px;
   border-radius: 5px;
+
 }
 
 /*# sourceMappingURL=style.css.map */

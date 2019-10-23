@@ -1,0 +1,11 @@
+.esconder-slide {
+    opacity: 0;
+}
+
+.eventos__titulo h2 {
+    @include fonte-titulo($fonte-vermelho);
+}
+
+.card-tamanho {
+    width: 100%;
+}
