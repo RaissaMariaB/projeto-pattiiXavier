@@ -1,5 +1,18 @@
+.header_encomenda--link {
+  background-color: #DA1425;
+  color: #ffff;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 20px 10px;
+  border-radius: 8px;
+}
+
 * {
   box-sizing: border-box;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .cursos {
@@ -43,13 +56,26 @@
   border-radius: 5px;
 }
 
-.button__inscricao--breve {
-  background-color: #ffff;
+.header_encomenda {
+  margin-top: 20px;
+}
+
+.header_encomenda--titulo {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.8rem;
   color: #DA1425;
-  text-decoration: none;
-  font-size: 0.7rem;
-  padding: 12px;
-  border-radius: 8px;
+}
+
+.encomendas {
+  margin-top: 30px;
+}
+
+.encomendas__organiza--imagem {
+  width: 300px;
+  height: 200px;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #aa6969;
 }
 
 /*# sourceMappingURL=style.css.map */
