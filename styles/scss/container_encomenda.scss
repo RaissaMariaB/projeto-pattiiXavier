@@ -1,0 +1,22 @@
+.header_encomenda{
+    margin-top: 20px;
+}
+
+.header_encomenda--titulo{
+    @include fonte-titulo($fonte-vermelho)
+}
+
+.header_encomenda--link{
+    @extend %button-encomendas
+}
+
+.encomendas {
+    margin-top: 30px;
+}
+.encomendas__organiza--imagem{
+    width: 300px;
+    height:200px;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(170, 105, 105);
+}
