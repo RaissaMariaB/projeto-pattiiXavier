@@ -18,7 +18,7 @@ nav{
 
 .nav-estilo{
     width: 16rem;
-    height: 12rem;
+    height: 8rem;
     align-items: center;
     align-content: flex-end;
     display: flex;
@@ -46,7 +46,7 @@ nav{
 }
 
 .img-logo{
-    height:7rem;
+    height:6rem;
     background-color: #ffffff;
     border-radius:2px;
     // vertical-align: middle;
@@ -56,8 +56,6 @@ nav{
     // position: absolute;
     bottom: -16px;
     padding: 10px;
-
-
 
 
 }
@@ -102,5 +100,19 @@ color: $fonte-vermelho;
     margin: 0;
     justify-content: space-between;
     margin-right: 5px;
+}
+.img-logo{
+    height:7rem;
+    background-color: #ffffff;
+    border-radius:2px;
+    // vertical-align: middle;
+    // border-style: none;
+    justify-content: space-between;
+    align-items: flex-end;
+    // position: absolute;
+    bottom: -16px;
+    padding: 10px;
+
+
 }
 }
