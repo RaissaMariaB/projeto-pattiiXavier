@@ -11,9 +11,9 @@
   box-sizing: border-box;
 }
 
-
 a:hover {
   text-decoration: none;
+}
 
 body {
   margin: 0 auto;
@@ -60,7 +60,6 @@ h2 {
   height: 35%;
   display: flex;
   justify-content: center;
-
 }
 
 .cursos {
@@ -104,36 +103,15 @@ h2 {
   border-radius: 5px;
 }
 
-
-.header_encomenda {
-  margin-top: 20px;
-}
-
-.header_encomenda--titulo {
-
 .esconder-slide {
   opacity: 0;
 }
 
 .eventos__titulo h2 {
-
   font-family: "Dancing Script", cursive;
   font-size: 2.8rem;
   color: #DA1425;
 }
-
-
-.encomendas {
-  margin-top: 30px;
-}
-
-.encomendas__organiza--imagem {
-  width: 300px;
-  height: 200px;
-  margin: 30px;
-  border-radius: 5px;
-  box-shadow: 3px 3px 3px #aa6969;
-  }
 
 .card-tamanho {
   width: 100%;
@@ -169,7 +147,28 @@ i {
 .slide__parceiros--imagem {
   width: 5vw;
   margin-left: 20px;
+}
 
+.header_encomenda {
+  margin-top: 20px;
+}
+
+.header_encomenda--titulo {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.8rem;
+  color: #DA1425;
+}
+
+.encomendas {
+  margin-top: 30px;
+}
+
+.encomendas__organiza--imagem {
+  width: 300px;
+  height: 200px;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #aa6969;
 }
 
 /*# sourceMappingURL=style.css.map */
