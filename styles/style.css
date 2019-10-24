@@ -2,11 +2,87 @@
   box-sizing: border-box;
 }
 
+
 h2 {
+}
+body {
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  object-fit: cover;
+  object-position: 0 25%;
+  max-height: 400px;
+  height: 100vh;
+}
+
+
+footer {
+  background-color: #D41820;
+  margin-top: 15px;
+  background-repeat: no-repeat;
+}
+
+.linkParceiros {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.contato-titulo {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.8rem;
+  color: #ffff;
+}
+
+i {
+  color: #ffff;
+}
+
+.slide__parceiros {
+  display: none;
+}
+
+.slide__parceiros--imagem {
+  width: 5vw;
+  margin-left: 20px;
+
+}
+.dados {
+  background-color: #E50E2D;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.dados h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.8rem;
+  color: #ffff;
+  margin-top: 20px;
+}
+
+.container__dados--img {
+  margin: 25px;
+  width: 25%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+}
+
+.cursos {
+  color: #ffff;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.cursos__titulo > h2 {
+
   font-family: "Dancing Script", cursive;
   font-size: 2.8rem;
   color: #DA1425;
 }
+
 
 .minibio {
   margin: 10%;
@@ -15,6 +91,51 @@ h2 {
 .minibio__imagem {
   width: 300px;
   height: 450px;
+}
+
+.cursos__descricao-aberto {
+  background-color: #E50E2D;
+  margin-top: 16px;
+  border-radius: 5px;
+}
+
+.fonte-texto {
+  font-size: 10px;
+}
+
+.fonte-texto1 {
+  font-size: 12px;
+}
+
+.button__inscricao {
+  background-color: #ffff;
+  color: #DA1425;
+  text-decoration: none;
+  font-size: 0.7rem;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.cursos__descricao-breve {
+  background-color: #E98A95;
+  margin-top: 16px;
+  border-radius: 5px;
+}
+
+.esconder-slide {
+  opacity: 0;
+}
+
+.eventos__titulo h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.8rem;
+  color: #DA1425;
+}
+
+.card-tamanho {
+  width: 100%;
+
+
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+.dados{
+    background-color: $bg-vermelho;
+    width: 100%;
+    padding-bottom: 15px ;
+        
+
+}
+
+.dados  h2{
+    @include fonte-titulo($fonte-branca);
+    margin-top: 20px;
+    
+
+}
+.container__dados--img{
+    margin: 25px;
+    width: 25%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+}
