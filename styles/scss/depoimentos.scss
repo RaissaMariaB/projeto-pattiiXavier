@@ -1,0 +1,28 @@
+/* DEPOIMENTOS */
+
+.tamanho-card{
+    width: 18rem;
+    height: 550px;
+    margin: 20px;
+  }
+  
+  .imagem-cards{
+    max-width: 400px;
+    max-height: 240px;
+  
+  }
+  
+  .depoimentos__titulo{
+    @include fonte-titulo($fonte-vermelho);
+  }
+  
+  .card-body__conteudo{
+    max-height: 300px;
+  }
+  
+  .btn-edit {
+    width: 100px;
+    height: 40px;
+    background-color:#DA1425 ;
+  }
+  
