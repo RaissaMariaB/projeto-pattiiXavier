@@ -1,5 +1,5 @@
 .header_encomenda{
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .header_encomenda--titulo{
@@ -16,7 +16,51 @@
 .encomendas__organiza--imagem{
     width: 300px;
     height:200px;
-    margin: 30px;
+    margin:15px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgb(170, 105, 105);
 }
+
+.organiza__imagem{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  
+}
+
+h6{
+    color: $fonte-vermelho;
+    width: 160px;  
+    height: 57px;    
+    }
+
+a:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+
+.footer-reprograma{
+    font-size: 0.7rem;
+}
+
+.bg-red{
+    background-color: rgb(155, 11, 11);
+}
+
+.linkParceiros{
+    text-decoration: underline;
+}
+
+#link__parceiros{
+    text-decoration: underline;
+}
+
+@media(max-widht:440px){
+  .encomendas__organiza--imagem{
+    margin: 5px;
+    width: 100px;
+    height:80px;
+  } 
+}
+
