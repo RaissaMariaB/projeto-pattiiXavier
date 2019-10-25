@@ -1,6 +1,6 @@
 .cursos {
     color: $fonte-branca;
-    width: 50vw;
+    width: 60vw;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -10,30 +10,47 @@
 }
 
 .nome-curso{
-    font-size:1rem;
+    font-size:1.5rem;
 }
 
 .cursos__descricao-aberto {
 background-color: $bg-vermelho;
-margin-top: 16px;
+margin-top: 60px;
 border-radius: 5px;
+width: 100%;
 }
 
 .fonte-texto {
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .fonte-texto1 {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .button__inscricao {
+  @include button__inscricao();
+  font-size: 16px;    
+}
 
-  @include button__inscricao(6px)
+.cursos__descricao{  
+    a:hover{
+        text-decoration: none;
+        color: #ffffff;
+        background-color: $bg-vermelho;
+        opacity: .3;
+    }
 }
 
 .cursos__descricao-breve{
     background-color:#E98A95;
-    margin-top: 16px;
+    margin-top: 35px;
     border-radius: 5px;
+    width: 100%;
+}
+
+@media (min-width:970px){
+  .ajuste{
+    margin-right: 50px;
+}
 }
