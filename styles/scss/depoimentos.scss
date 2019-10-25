@@ -9,11 +9,17 @@
   .imagem-cards{
     max-width: 400px;
     max-height: 240px;
+    border-radius: 6px;
+
   
   }
   
   .depoimentos__titulo{
     @include fonte-titulo($fonte-vermelho);
+  }
+
+  .depoimento__nome{
+    color: #DA1425;
   }
   
   .card-body__conteudo{
@@ -24,5 +30,10 @@
     width: 100px;
     height: 40px;
     background-color:#DA1425 ;
+  }
+  .btn-edit:hover{
+    box-shadow: 3px 3px 16px -3px rgba(0,0,0,0.78);
+    background-color:#DA1425;
+
   }
   
