@@ -4,12 +4,12 @@
     color: $cor;    
 }
 
-@mixin button__inscricao($pad-button){
+@mixin button__inscricao(){
     background-color: #ffff;
     color: $fonte-vermelho;
     text-decoration: none;
-    font-size: 0.7rem;
-    padding:$pad-button;
-    border-radius: 8px;
+    font-size: 0.7rem;        
+    border-radius: 5px;
     box-shadow: 2px 2px 2px rgb(119, 36, 36);
+    padding: 10px;
 }
