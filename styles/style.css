@@ -53,6 +53,22 @@ nav {
   align-items: center;
 }
 
+.nav-estilo-encomendas {
+  width: 16rem;
+  height: 4rem;
+  align-items: center;
+  align-content: flex-end;
+  display: flex;
+  margin: -6rem;
+  border-radius: 5px;
+  margin: 0.01rem;
+  /* margin-right: 1rem; */
+  justify-content: space-between;
+  align-items: flex-end;
+  /* bottom: -16px; */
+  align-items: center;
+}
+
 .bg-vermelho {
   background-color: #E50E2D;
 }

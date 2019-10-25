@@ -35,6 +35,25 @@ nav{
 
 }
 
+.nav-estilo-encomendas{
+    width: 16rem;
+    height: 4rem;
+    align-items: center;
+    align-content: flex-end;
+    display: flex;
+    margin: -6rem;
+    border-radius: 5px;
+    margin: .01rem;
+    /* margin-right: 1rem; */
+    justify-content: space-between;
+    align-items: flex-end;
+    // position: absolute;
+    /* bottom: -16px; */
+    align-items: center;
+
+
+}
+
 
 .bg-vermelho{
     background-color:$bg-vermelho; 
