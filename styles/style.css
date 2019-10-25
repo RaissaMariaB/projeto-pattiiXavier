@@ -5,6 +5,7 @@
   font-size: 1rem;
   padding: 20px 10px;
   border-radius: 8px;
+  box-shadow: 2px 2px 2px #501e1e;
 }
 
 * {
@@ -150,14 +151,19 @@ h2 {
 
 .cursos {
   color: #ffff;
-  width: 500px;
+  width: 50vw;
   margin: 0 auto;
+  margin-top: 50px;
 }
 
 .cursos__titulo > h2 {
   font-family: "Dancing Script", cursive;
   font-size: 2.8rem;
   color: #DA1425;
+}
+
+.nome-curso {
+  font-size: 1rem;
 }
 
 .cursos__descricao-aberto {
@@ -181,6 +187,7 @@ h2 {
   font-size: 0.7rem;
   padding: 6px;
   border-radius: 8px;
+  box-shadow: 2px 2px 2px #772424;
 }
 
 .cursos__descricao-breve {
@@ -264,7 +271,7 @@ i {
 }
 
 .header_encomenda {
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .header_encomenda--titulo {
@@ -280,9 +287,51 @@ i {
 .encomendas__organiza--imagem {
   width: 300px;
   height: 200px;
-  margin: 30px;
+  margin: 15px;
   border-radius: 5px;
   box-shadow: 3px 3px 3px #aa6969;
+}
+
+.organiza__imagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h6 {
+  color: #DA1425;
+  width: 160px;
+  height: 57px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-reprograma {
+  font-size: 0.7rem;
+}
+
+.bg-red {
+  background-color: #9b0b0b;
+}
+
+.linkParceiros {
+  text-decoration: underline;
+}
+
+#link__parceiros {
+  text-decoration: underline;
+}
+
+@media (max-widht: 440px) {
+  .encomendas__organiza--imagem {
+    margin: 5px;
+    width: 100px;
+    height: 80px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
