@@ -4,7 +4,7 @@
   text-decoration: none;
   font-size: 1rem;
   padding: 20px 10px;
-  border-radius: 8px;
+  border-radius: 5px;
   box-shadow: 2px 2px 2px #501e1e;
 }
 
@@ -167,7 +167,7 @@ h2 {
 
 .cursos {
   color: #ffff;
-  width: 50vw;
+  width: 60vw;
   margin: 0 auto;
   margin-top: 50px;
 }
@@ -179,21 +179,22 @@ h2 {
 }
 
 .nome-curso {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .cursos__descricao-aberto {
   background-color: #E50E2D;
-  margin-top: 16px;
+  margin-top: 60px;
   border-radius: 5px;
+  width: 100%;
 }
 
 .fonte-texto {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .fonte-texto1 {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .button__inscricao {
@@ -201,17 +202,31 @@ h2 {
   color: #DA1425;
   text-decoration: none;
   font-size: 0.7rem;
-  padding: 6px;
-  border-radius: 8px;
+  border-radius: 5px;
   box-shadow: 2px 2px 2px #772424;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.cursos__descricao a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #E50E2D;
+  opacity: 0.3;
 }
 
 .cursos__descricao-breve {
   background-color: #E98A95;
-  margin-top: 16px;
+  margin-top: 35px;
   border-radius: 5px;
+  width: 100%;
 }
 
+@media (min-width: 970px) {
+  .ajuste {
+    margin-right: 50px;
+  }
+}
 .esconder-slide {
   opacity: 0;
 }
