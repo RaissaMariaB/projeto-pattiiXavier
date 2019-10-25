@@ -273,6 +273,11 @@ i {
 .header_encomenda {
   margin-top: 60px;
 }
+.header_encomenda a:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+}
 
 .header_encomenda--titulo {
   font-family: "Dancing Script", cursive;
@@ -305,11 +310,6 @@ h6 {
   height: 57px;
 }
 
-a:hover {
-  text-decoration: none;
-  color: inherit;
-}
-
 .footer-reprograma {
   font-size: 0.7rem;
 }
@@ -318,12 +318,37 @@ a:hover {
   background-color: #9b0b0b;
 }
 
+.linkParceiros-div {
+  margin-top: 30px;
+}
+.linkParceiros-div a:hover {
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.5;
+}
+
 .linkParceiros {
-  text-decoration: underline;
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
 }
 
 #link__parceiros {
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+.slide__parceiros {
+  height: 400px;
+}
+
+.slide__parceiros--imagem {
+  width: 9vw;
+  height: 13vh;
+  margin: 20px;
+}
+
+.reprograma {
+  text-decoration: none;
 }
 
 @media (max-widht: 440px) {
