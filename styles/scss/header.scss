@@ -13,9 +13,13 @@
 }
 
 @media (max-width: 320px){
-.carousel-inner{
+    .carousel-inner{
     object-fit: cover;
     object-position: 0 25%;
     max-height: 300px;
+    }
 }
+
+#carouselExampleIndicators2{
+    padding-top:95px;
 }
