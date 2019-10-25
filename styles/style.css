@@ -22,32 +22,34 @@ body {
 
 nav {
   background-color: #E50E2D;
-  height: 8rem;
   display: flex;
   margin: 0 auto;
+  width: 100%;
+  z-index: 99;
 }
 
-i:hover {
+.icones-social i:hover {
   font-weight: 800 !important;
 }
 
-i {
+.icones-social i {
   font-size: 1rem;
 }
 
 .nav-estilo {
-  height: 4rem;
+  width: 16rem;
+  height: 8rem;
   align-items: center;
   align-content: flex-end;
   display: flex;
-  margin: 0 auto;
-  border-radius: 10px;
-  margin: 1rem;
-  margin-right: 1rem;
+  margin: -6rem;
+  border-radius: 5px;
+  margin: 0.01rem;
+  /* margin-right: 1rem; */
   justify-content: space-between;
   align-items: flex-end;
   position: absolute;
-  bottom: -16px;
+  /* bottom: -16px; */
   align-items: center;
 }
 
@@ -62,21 +64,53 @@ i {
 .img-logo {
   height: 6rem;
   background-color: #ffffff;
-  border-radius: 5px;
+  border-radius: 2px;
   justify-content: space-between;
   align-items: flex-end;
-  position: absolute;
-  bottom: -20px;
+  bottom: -16px;
+  padding: 10px;
 }
 
 .cor-fonte a {
   color: #DA1425;
 }
 
-.cor-fonte ul li a {
+.cor-fonte i {
   color: #DA1425;
 }
 
+@media (min-width: 992px) {
+  .nav-estilo {
+    height: 3rem;
+    width: 30rem;
+    align-items: center;
+    align-content: flex-end;
+    display: flex;
+    border-radius: 5px;
+    margin: 1rem;
+    margin-right: 1rem;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    align-items: center;
+  }
+
+  .nav-estilo-redes {
+    margin: 0;
+    justify-content: space-between;
+    margin-right: 5px;
+  }
+
+  .img-logo {
+    height: 7rem;
+    background-color: #ffffff;
+    border-radius: 2px;
+    justify-content: space-between;
+    align-items: flex-end;
+    bottom: -16px;
+    padding: 10px;
+  }
+}
 .carousel-inner {
   object-fit: cover;
   object-position: 0 25%;
@@ -90,13 +124,8 @@ h2 {
   color: #DA1425;
 }
 
-.minibio {
-  margin: 10%;
-}
-
 .minibio__imagem {
-  width: 300px;
-  height: 450px;
+  width: 100%;
 }
 
 .dados {
@@ -179,6 +208,34 @@ h2 {
 
 .card-tamanho {
   width: 100%;
+}
+
+/* DEPOIMENTOS */
+.tamanho-card {
+  width: 18rem;
+  height: 550px;
+  margin: 20px;
+}
+
+.imagem-cards {
+  max-width: 400px;
+  max-height: 240px;
+}
+
+.depoimentos__titulo {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.8rem;
+  color: #DA1425;
+}
+
+.card-body__conteudo {
+  max-height: 300px;
+}
+
+.btn-edit {
+  width: 100px;
+  height: 40px;
+  background-color: #DA1425;
 }
 
 footer {
