@@ -38,7 +38,7 @@ nav {
 
 .nav-estilo {
   width: 16rem;
-  height: 8rem;
+  height: 10rem;
   align-items: center;
   align-content: flex-end;
   display: flex;
@@ -114,8 +114,24 @@ nav {
 .carousel-inner {
   object-fit: cover;
   object-position: 0 25%;
-  max-height: 400px;
-  height: 100vh;
+  height: auto;
+}
+
+.carousel-img {
+  width: 100%;
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+@media (max-width: 320px) {
+  .carousel-inner {
+    object-fit: cover;
+    object-position: 0 25%;
+    max-height: 300px;
+  }
+}
+#carouselExampleIndicators2 {
+  padding-top: 95px;
 }
 
 h2 {
@@ -257,6 +273,10 @@ footer {
   background-color: #E50E2D;
   margin-top: 15px;
   background-repeat: no-repeat;
+}
+footer p {
+  margin-top: 0;
+  margin-bottom: 0rem;
 }
 
 .linkParceiros {
