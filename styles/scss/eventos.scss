@@ -5,7 +5,34 @@
 .eventos__titulo h2 {
     @include fonte-titulo($fonte-vermelho);
 }
+.eventos__card{
+    height: 100%;
 
+}
 .card-tamanho {
     width: 100%;
+}
+.image-card-top{
+    width: 100%;
+    border-radius: 6px;
+}
+.image-card-top:hover{
+    box-shadow:2px 4px 15px 1px #DA1425;
+    transition: 0.80s;
+
+
+}
+
+
+.imagem__carrousel{
+    width: 100%;
+}
+
+.carousel__borda{
+    height: 100%;
+}
+.card__titulo{
+    font-size: 18px;
+    color: #DA1425;
+    padding: 20px;
 }

@@ -253,8 +253,36 @@ h2 {
   color: #DA1425;
 }
 
+.eventos__card {
+  height: 100%;
+}
+
 .card-tamanho {
   width: 100%;
+}
+
+.image-card-top {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.image-card-top:hover {
+  box-shadow: 2px 4px 15px 1px #DA1425;
+  transition: 0.8s;
+}
+
+.imagem__carrousel {
+  width: 100%;
+}
+
+.carousel__borda {
+  height: 100%;
+}
+
+.card__titulo {
+  font-size: 18px;
+  color: #DA1425;
+  padding: 20px;
 }
 
 /* DEPOIMENTOS */
@@ -267,11 +295,16 @@ h2 {
 .imagem-cards {
   max-width: 400px;
   max-height: 240px;
+  border-radius: 6px;
 }
 
 .depoimentos__titulo {
   font-family: "Dancing Script", cursive;
   font-size: 2.8rem;
+  color: #DA1425;
+}
+
+.depoimento__nome {
   color: #DA1425;
 }
 
@@ -282,6 +315,11 @@ h2 {
 .btn-edit {
   width: 100px;
   height: 40px;
+  background-color: #DA1425;
+}
+
+.btn-edit:hover {
+  box-shadow: 3px 3px 16px -3px rgba(0, 0, 0, 0.78);
   background-color: #DA1425;
 }
 
